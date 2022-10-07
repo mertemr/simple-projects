@@ -1,0 +1,1 @@
+print(__import__('requests').get('https://checkip.amazonaws.com').text.strip())
